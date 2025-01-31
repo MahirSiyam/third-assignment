@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,9 +30,65 @@
         }
       </script>
 </head>
-<body>
-    <header>
-
+<body class="container mx-auto">
+    <header class="sora mb-24">
+        <nav>
+            <div class="flex justify-between lg:justify-around justify-center items-center">
+              
+              <div>
+                <img class="hidden lg:flex" src="./c2-assets/logo-header.png" alt="">
+                <img class="lg:hidden px-3" src="./c2-assets/Group.png" alt="">
+              </div>
+              
+                  <ul class="flex justify-around gap-16 hidden lg:flex">
+                    <li><a href="">Product</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact us</a></li>
+                  </ul>
+  
+              <div class="">
+                <div class="hidden lg:flex items-center space-x-5">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  <button class="btn btn-outline btn-success">Login</button>
+                  <button class="btn">Register</button>
+                </div>
+  
+                <button class="btn btn-square btn-ghost lg:hidden pr-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    class="inline-block h-5 w-5 stroke-current">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h16"></path>
+                  </svg>
+                </button>
+              </div>
+            </div> 
+            <hr class="bg-green-900 h-1 lg:hidden">
+          </nav>
+  
+          <div class="pt-14 bg-gradient-to-b from-white to-green-100 min-h-screen">
+            <div class="flex justify-center text-center pb-0">
+              <div class="w-auto lg:w-[600px]">
+                <h1 class="text-5xl font-semibold">Freshness <span class="text-green-700">You Can
+                    Count</span> On, Prices You’ll Love!</h1>
+                <p class="py-10 text-lg">
+                    Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
+                </p>
+  
+                <div class="flex justify-center">
+                    <img class="animate-bounce w-20 h-20" src="./c2-assets/download.png" alt="">
+                </div>
+  
+                <img src="./c2-assets/hero-vegetables.png" alt="">
+              </div>
+            </div>
+          </div>
     </header>
 
     <main>
@@ -40,7 +96,7 @@
     </main>
 
     <footer>
-        
+
     </footer>
 </body>
 </html>
